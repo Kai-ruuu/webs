@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="getSelValue()">
+        <div id="logInCont">
+            <img id="logInScrGif" height="100%" src="https://media.tenor.com/lqtU1G4aaqIAAAAi/yom-dance.gif">
+            <div id="usrInpCont">
+                <input id="usrInp" type="password" placeholder="password">
+                <div id="clearBtn" onclick="clearUsrInp()">
+                    <img id="clearBtnImg" src="https://img.icons8.com/windows/256/recurring-appointment.png" alt="">
+                </div>
+            </div>
+            <div id="doneBtn" onclick="checkUsrInp()">
+                <p>Done</p>
+            </div>
+        </div>
+        <div id="lgdInCont">
+            <div id="selectionCont">    
+                <select id="dispSel" onchange="getSelValue()">
+                    <option class="selOpt" value="messages">Messages</option>
+                    <option class="selOpt" value="photos">Photos</option>
+                </select>
+            </div>
+            <div id="botCont">
+                <div id="cntCont">
+                    <div id="forMsgCont">
+                        <div id="gifImgCont">
+                            <img width="100%" height="100%" id="cntImg" src="">
+                        </div>
+                        <p id="message"></p>
+                    </div>
+                    <div id="forPhtCont">
+                        <a id="imgSrc" href="">
+                            <img width="100%" id="photo" src="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="btns" id="btnCont">
+                <div class="moveBtn" id="leftBtn" onclick="previous()">
+                    <p>Previous</p>
+                </div>
+                <div class="moveBtn" id="rightBtn" onclick="next()">
+                    <p>Next</p>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

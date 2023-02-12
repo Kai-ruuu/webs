@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background: maroon;
+    width: 100%;
+    height: 100vh;
+    font-family: Open Sans;
+    color: white;
+    text-align: center;
+}
+
+#logInCont {
+    display: grid;
+    border: 0px solid #ffffff;
+    width: 60%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 20%;
+    background: #ff3f3f7e;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 30% 10% 5% 10% 35%;
+}
+
+#logInScrGif {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#usrInpCont {
+    border: 0px solid #000;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#usrInp {
+    border: 0px solid #ffffff;
+    background: #ffaaaa;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    transition: ease 0.2s;
+    text-align: center;
+    font-size: 14pt;
+    color: maroon;
+}
+
+#usrInp:placeholder-shown {
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 14pt;
+}
+
+#usrInp:focus {
+    outline: none;
+    background-color: #ffd5d5;
+}
+
+#clearBtn {
+    display: flex;
+    border: 0px solid #000;
+    background: maroon;
+    justify-content: center;
+    align-items: center;
+}
+
+#clearBtn:hover{
+    background: red;
+}
+
+#clearBtn:active #clearBtnImg {
+    transform: scale(85%);
+}
+
+#clearBtnImg {
+    width: 25px;
+    filter: invert();
+    transition: ease 0.2s;
+}
+
+#doneBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #ffffff;
+    background: maroon;
+    transition: ease 0.2s;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#doneBtn > p {
+    font-size: 14pt;
+}
+
+#doneBtn:hover {
+    background: red;
+}
+
+#doneBtn:active {
+    transform: scale(95%);
+}
+
+#lgdInCont {
+    display: none;
+    width: 60%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 20%;
+    background: #ff3f3f7e;
+    grid-template-columns: 100%;
+    grid-template-rows: 5% 10% 70% 10% 5%;
+}
+
+#selectionCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#dispSel {
+    border: 0px;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14pt;
+    background: maroon;
+    color: white;
+    transition: ease 0.2s;
+}
+
+#dispSel:focus {
+    outline: none;
+}
+
+#dispSel:hover {
+    background: red;
+}
+
+#botCont {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 5% 75% 5% 10% 5%;
+}
+
+#cntCont {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#forMsgCont {
+    height: 100%;
+    background: maroon;
+    overflow-y: auto;
+}
+
+#gifImgCont {
+    width: 200px;
+    height: 200px;
+    background: #ffaaaa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+#message {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14pt;
+}
+
+#forPhtCont {
+    display: none;
+    height: 100%;
+    background: maroon;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+#photo {
+    background: #ffaaaa;
+
+}
+
+#imgSrc {
+    width: 80%;
+    transition: ease 0.2s;
+}
+
+#imgSrc:hover {
+    transform: scale(105%);
+}
+
+#imgSrc:active {
+    transform: scale(95%);
+}
+
+.btns {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+}
+
+.moveBtn {
+    background: maroon;
+    transition: ease 0.2s;
+}
+
+.moveBtn:hover {
+    background-color: red;
+}
+
+.moveBtn:active {
+    background: red;
+    transform: scale(90%);
+}
+
+#leftBtn {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#rightBtn {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
