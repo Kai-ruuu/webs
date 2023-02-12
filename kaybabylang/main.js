@@ -2,12 +2,23 @@ var password = 'bebecakes';
 
 var msgList = [
     'Hi baby kooo',
-    'sa ngayon, \'di ko pa tapos \'to',
-    'HAHAHAHAHAHA ang krazy ng kwento mo',
-    'balibaliktad ba naman HAHAHAHAHA'
+    'I',
+    'Love',
+    'You',
+    'So',
+    'Much',
+    'mmmwa 😘',
+    'Ahm, eto lang nabago HAHAHAHAHAHA',
+    'wala pa akong maisip na ibang maidadagdag e',
+    'sana magustohan mo pi'
 ];
 
 var gifList = [
+    'https://media.tenor.com/5gdedXcVBgYAAAAj/pat-hug.gif',
+    'https://media.tenor.com/HOJqOthrg4wAAAAj/cat-peach.gif',
+    'https://media.tenor.com/NCTAWT9BUgAAAAAi/cuddles-love.gif',
+    'https://media.tenor.com/evMwgWDLI7cAAAAj/peach-cute.gif',
+    'https://media.tenor.com/9uprlTXW3kUAAAAi/cute-love.gif',
     'https://media.tenor.com/5gdedXcVBgYAAAAj/pat-hug.gif',
     'https://media.tenor.com/HOJqOthrg4wAAAAj/cat-peach.gif',
     'https://media.tenor.com/NCTAWT9BUgAAAAAi/cuddles-love.gif',
