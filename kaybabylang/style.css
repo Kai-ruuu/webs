@@ -195,19 +195,20 @@ body {
     display: none;
     height: 100%;
     background: maroon;
+    display: flex;
     justify-content: center;
     align-items: center;
-    overflow-y: auto;
 }
 
 #photo {
     background: #ffaaaa;
-
 }
 
 #imgSrc {
     width: 80%;
+    height: 80%;
     transition: ease 0.2s;
+    display: flex;
 }
 
 #imgSrc:hover {
