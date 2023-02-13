@@ -9,13 +9,19 @@ body {
     text-align: center;
 }
 
+p {
+    font-family: Open Sans;
+    font-size: 20pt;
+}
+
 #logInCont {
     display: grid;
+    display: none;
     border: 0px solid #ffffff;
-    width: 60%;
+    width: 80%;
     height: 90%;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 10%;
     background: #ff3f3f7e;
     grid-template-columns: 10% 80% 10%;
     grid-template-rows: 10% 30% 10% 5% 10% 35%;
@@ -49,14 +55,14 @@ body {
     height: 100%;
     transition: ease 0.2s;
     text-align: center;
-    font-size: 14pt;
+    font-size: 20pt;
     color: maroon;
 }
 
 #usrInp:placeholder-shown {
     font-family: Open Sans;
     text-align: center;
-    font-size: 14pt;
+    font-size: 20pt;
 }
 
 #usrInp:focus {
@@ -99,10 +105,6 @@ body {
     grid-row-end: 6;
 }
 
-#doneBtn > p {
-    font-size: 14pt;
-}
-
 #doneBtn:hover {
     background: red;
 }
@@ -112,11 +114,11 @@ body {
 }
 
 #lgdInCont {
-    display: none;
-    width: 60%;
+    display: grid;
+    width: 80%;
     height: 90%;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 10%;
     background: #ff3f3f7e;
     grid-template-columns: 100%;
     grid-template-rows: 5% 10% 70% 10% 5%;
@@ -138,7 +140,7 @@ body {
     height: 100%;
     text-align: center;
     font-family: Open Sans;
-    font-size: 14pt;
+    font-size: 20pt;
     background: maroon;
     color: white;
     transition: ease 0.2s;
@@ -188,7 +190,7 @@ body {
     text-align: center;
     width: 80%;
     margin-left: 10%;
-    font-size: 14pt;
+    font-size: 20pt;
 }
 
 #forPhtCont {
@@ -237,6 +239,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.moveBtn p {
+    margin: 0px;
 }
 
 .moveBtn:hover {
