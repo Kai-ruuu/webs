@@ -1,13 +1,21 @@
-var password = 'bebecakes';
+var password = '021423';
 
 var msgList = [
-    'Babyyy Hiii',
-    'Nood well ng tutorials HAHAHAHAHAHA',
-    'Ahm, sana magustohan mo \'to kahit hindi pusa yung buttons wala kasi ako mahanap na babagay e huhu',
-    'I love you so much babyyy 🤍, mwa 😘'
+    'Happy Valentine\'s day pi',
+    '\'Di ko talaga alam kung anong mga gagawin ko mamaya kapag nano\'n na HAHAHAHAHAHAHAHA',
+    'Goodluck Kai HAHAHAHAHAHAHAHA',
+    'Kahit na \'di gano\'n katagal date natin masaya na ako kaya salamat, mwa',
+    'Sana mag enjoy ka rin HAHAHAHAHAHAHAHA',
+    'Happy Valentine\'s day ulittt',
+    'I love you so muchhh, mmmwa'
 ];
 
 var gifList = [
+    'https://media.tenor.com/5gdedXcVBgYAAAAj/pat-hug.gif',
+    'https://media.tenor.com/HOJqOthrg4wAAAAj/cat-peach.gif',
+    'https://media.tenor.com/NCTAWT9BUgAAAAAi/cuddles-love.gif',
+    'https://media.tenor.com/evMwgWDLI7cAAAAj/peach-cute.gif',
+    'https://media.tenor.com/9uprlTXW3kUAAAAi/cute-love.gif',
     'https://media.tenor.com/5gdedXcVBgYAAAAj/pat-hug.gif',
     'https://media.tenor.com/HOJqOthrg4wAAAAj/cat-peach.gif',
     'https://media.tenor.com/NCTAWT9BUgAAAAAi/cuddles-love.gif',
