@@ -222,7 +222,7 @@ function check12Hour(i) {
         return i - 12;
     }
     else {
-        return i
+        return i;
     }
 }
 
