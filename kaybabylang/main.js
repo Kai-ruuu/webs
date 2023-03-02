@@ -16,6 +16,13 @@ var gifList = [
     'https://media.tenor.com/NCTAWT9BUgAAAAAi/cuddles-love.gif',
     'https://media.tenor.com/evMwgWDLI7cAAAAj/peach-cute.gif',
     'https://media.tenor.com/9uprlTXW3kUAAAAi/cute-love.gif',
+    
+    'https://media.tenor.com/5gdedXcVBgYAAAAj/pat-hug.gif',
+    'https://media.tenor.com/HOJqOthrg4wAAAAj/cat-peach.gif',
+    'https://media.tenor.com/NCTAWT9BUgAAAAAi/cuddles-love.gif',
+    'https://media.tenor.com/evMwgWDLI7cAAAAj/peach-cute.gif',
+    'https://media.tenor.com/9uprlTXW3kUAAAAi/cute-love.gif',
+
     'https://media.tenor.com/5gdedXcVBgYAAAAj/pat-hug.gif',
     'https://media.tenor.com/HOJqOthrg4wAAAAj/cat-peach.gif',
     'https://media.tenor.com/NCTAWT9BUgAAAAAi/cuddles-love.gif',
@@ -26,11 +33,16 @@ var gifList = [
 var imgList = [
     'Images/img01.jpg',
     'Images/img02.png',
+    'Images/img03.jpg',
     'Images/img04.jpg',
     'Images/img05.jpg',
     'Images/img06.jpg',
     'Images/img07.jpg',
-    'Images/img08.jpg'
+    'Images/img08.jpg',
+    'Images/img09.jpg',
+    'Images/img10.jpg',
+    'Images/img11.jpg',
+    'Images/img12.jpg'
 ];
 
 let msgInd = 0;
